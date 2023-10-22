@@ -17,7 +17,7 @@ public class Language {
         return greeting;
     }
 
-    public String getLangName() {
+    public String getName() {
         return name;
     }
 }

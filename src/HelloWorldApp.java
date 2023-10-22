@@ -3,6 +3,7 @@ import java.util.List;
 
 public class HelloWorldApp {
     public static void main(String[] args) {
+        // Create a list of languages with their names, codes, and greeting messages
         List<Language> languages = new ArrayList<>();
         languages.add(new Language("English", "en", "Hello World!"));
         languages.add(new Language("German", "de", "Hallo Welt!"));
