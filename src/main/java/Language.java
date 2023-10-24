@@ -1,4 +1,4 @@
-public class Language {
+class Language {
     private final String name;
     private final String code;
     private final String greeting;
