@@ -3,12 +3,14 @@ class Language {
     private final String code;
     private final String greeting;
 
+    // Constructor
     public Language(String name, String code, String greeting) {
         this.name = name;
         this.code = code;
         this.greeting = greeting;
     }
 
+    // Getters
     public String getCode() {
         return code;
     }
