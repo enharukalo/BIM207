@@ -2,4 +2,4 @@
 
 A simple multilingual hello world project written in Java
 
-![image](https://github.com/enharukalo/hello-world/assets/28190290/8614b3ea-2934-429c-bf90-a83c5d5cd0ea)
+![helloWorld 1 0](https://github.com/enharukalo/hello-world/assets/28190290/8f6c50c1-278d-476a-8e2d-60c9db65cdb2)
