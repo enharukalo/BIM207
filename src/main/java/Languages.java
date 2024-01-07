@@ -1,3 +1,7 @@
+// This enum contains the languages that the program supports.
+// Each language has a code and a greeting message.
+// The code is used to select the language.
+
 public enum Languages {
     ENGLISH("en", "Hello World!"),
     GERMAN("de", "Hallo Welt!"),

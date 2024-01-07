@@ -1,7 +1,7 @@
 import com.beust.jcommander.Parameter;
 
+// Define the command line arguments
 public class CommandLineArgs {
-    // Define the command line arguments
     @Parameter(names = {"-l", "--lang", "--language", "/lang"}, description = "Choose a language", required = true)
     String languageCode;
 

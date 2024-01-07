@@ -3,6 +3,7 @@ import com.beust.jcommander.ParameterException;
 
 public class HelloWorldApp {
     public static void main(String[] args) {
+        // Create a LanguageSelector object
         LanguageSelector languageSelector = new LanguageSelector();
 
         // Parse the command line arguments
@@ -21,10 +22,10 @@ public class HelloWorldApp {
             } else {
                 cmd.usage();
             }
-        } catch (ParameterException e) {
+        } catch (ParameterException e) { // Invalid command line argument
             System.err.println(e.getMessage());
             cmd.usage();
-        } catch (InvalidLanguageException e) {
+        } catch (InvalidLanguageException e) { // Invalid language code
             System.err.println(e.getMessage());
         }
     }

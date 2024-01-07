@@ -1,6 +1,7 @@
 import java.util.Arrays;
 import java.util.stream.Collectors;
 
+// Class to select the language for the greeting message
 public class LanguageSelector {
         // Return the greeting message for the selected language
         public String selectLanguage(String selectedLanguageCode) {
