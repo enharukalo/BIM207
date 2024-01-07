@@ -37,3 +37,7 @@ The application supports the following languages:
 ## Maven Dependencies
 
 - [JCommander](http://jcommander.org/): Command line parsing library.
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
